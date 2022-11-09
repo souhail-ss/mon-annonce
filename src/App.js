@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from './components/Nav'
-import Auth from './Auth';
+
 import Colle from './components/Colle'
 import Home from './components/Home'
 
@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
     <Nav/>
       <Routes>
-        <Route path="/auth" element={<Auth />} />
+        
         <Route path="/home" element={<Home />} />
         <Route path="/offers" element={<Colle/>} />
         
