@@ -6,6 +6,7 @@ import Nav from './components/Nav'
 
 import Colle from './components/Colle'
 import Home from './components/Home'
+import Offer from './components/Offer'
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <Routes>
         
         <Route path="/home" element={<Home />} />
+        <Route path="/offer/offerId" element={<Offer />} />
+        
         <Route path="/offers" element={<Colle/>} />
         
 
